@@ -1,0 +1,19 @@
+---
+- command: add_song_to_playlist
+  song_id: 1
+  playlist_id: 1
+- command: add_song_to_playlist
+  song_id: 1
+  playlist_id: 1  
+- command: delete_playlist
+  id: 2
+- command: new_playlist
+  user_id: 6
+  songs:
+    - song_id: 5
+    - song_id: 7
+    - song_id: 12
+- command: new_playlist
+  user_id: 5
+  songs:
+    - song_id: 37
