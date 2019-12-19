@@ -1,7 +1,8 @@
 # killer-app
 
-In order to run do:
+In order to clone and run locally do:
 ```
+  git clone https://github.com/moravsky/killer-app.git
   cmhod a+x killer-app.rb
   ./killer-app.rb mixtape.json changes.yml output.json
 ```
